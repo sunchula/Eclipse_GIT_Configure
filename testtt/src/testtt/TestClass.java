@@ -1,5 +1,7 @@
 package testtt;
 
 public interface TestClass {
-  System.out.println("Pull from Git");
+  public static void main(String args[]){
+	  System.out.println("Push to Git");
+  }
 }
